@@ -1,4 +1,6 @@
 body {
+  height:100%;
+  width:95%;
   font-family: Helvetica;
   padding: 2em;
   background-color: whitesmoke;
@@ -6,6 +8,12 @@ body {
 
 h1 {
   font-size: 2.5em;
+}
+
+
+
+.logo h1{
+  background-image: url('http://www.gsneo.org/content/dam/girlscouts-gsusa/images/Cookies/cookie-recipes/4.1.4-Cookie-Recipes.jpg');
 }
 
 /* Add a black background color to the top navigation */
@@ -17,6 +25,7 @@ h1 {
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
+    width:30%;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -39,72 +48,59 @@ h1 {
 
 .adbar {
     background-color: #e6e6e6;
-    height: 1000px;
+    height: inherit;
     float: right;
-    width: 300px;
+    width: 15%;
 }
 
 .ad {
+
     background-color: #4CAF50;
     color: white;
-    height: 300px;
-    width: 280px;
-    margin: 10px 10px;
+    height: 180px;
+    width: 180px;
+    margin: 15%;
 }
 
 .ad h1 {
-  padding-top: 120px;
+  padding-top:40%;
   text-align: center;
   vertical-align: center;
   color: black;
 }
 
-
-.skillset {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.skill-html {
-  background-color: #E55126;
-}
-
-.skill-js {
-  background-color: #E5A227;
-}
-
-.skill-jquery {
-  background-color: #0C73B8;
-}
-
-.skill-html,
-.skill-js,
-.skill-jquery {
+.main {
+  height: 100%;
   width: 100%;
-  padding: 1em 3em 2em 2em;
-  margin: 0.5em;
-  color: whitesmoke;
+  background-color: #a6acb5;
 }
 
-.projects-button {
-  padding: 0.75em 1.25em;
-  background-color: whitesmoke;
-  opacity: 0.9;
-  width: 10em;
-  color: black;
+.post {
+  height: 200px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.poster {
+  background-color: #e8cd99;
+  color:#4c4944;
+  height:20%;
 }
 
-.projects {
-  margin: 1em 0;
+.poster h2 {
+  text-align: center;
+}
+.post-content{
+  height:80%;
+  background-color: black;
 }
 
-.active {
-  background-color: #333333;
-  color: whitesmoke;
+.recipe-photo {
+  height:100%;
+  width: 100%;
+}
+
+.recipe-photo img {
+  height: 100%;
 }
