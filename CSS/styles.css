@@ -1,33 +1,44 @@
 body {  
   font-family: Verdana, sans-serif;
   background-color: whitesmoke;
-  padding: 5px;
+  min-width: 1200px;
+  max-width: 2000px;
+  margin: 0;
 }
 
 .adbar {
     background-color: #e6e6e6;
-    height: 1000px;
+    height: 100%;
     float: right;
-    width: 15%;
+    position: fixed;
+    right:0;
+    width: 14.5%;
+    min-width: 225px;
+    max-width:300px;
+    
 }
 
 .ad {
+    margin-top: 100px;
     background-color: #4CAF50;
     color: white;
+    position: relative;
+    top: 50px;
     height: 180px;
-    width: 180px;
-    margin: 15%;
+    width: 220px;
+    margin: 0 auto;
 }
 
 .ad h1 {
-  padding-top:40%;
+  padding-top: 70px;
   text-align: center;
-  vertical-align: center;
   color: black;
 }
+
 .logo {
   display: inline-block;
-  position: relative;
+  z-index: 1;
+  position: fixed;
   background-image: url('http://www.gsneo.org/content/dam/girlscouts-gsusa/images/Cookies/cookie-recipes/4.1.4-Cookie-Recipes.jpg');
   background-size: cover;  
   height: 100px; 
@@ -52,22 +63,26 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
+    position: fixed;
+    top: 100px;
+    height: 40px;
     background-color: #333;
     overflow: hidden;
     width: 85%;
-    max-height: 50px;
+    margin-right: 10px;
+    z-index: 1;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    width:31%;
+    width:33.3333%;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    padding: 10px 0;
 }
 
 /* Change the color of links on hover */
@@ -83,41 +98,58 @@ body {
 }
 
 .main {
-  height: 100%;
+  position: relative;
+  display: inline-block;
+  top: 135px;
+  height: 1000px;
   width: 85%;
 }
 
 .post {
   height: 200px;
-  width: 100%;;
-  margin-bottom: 10px;
+  width: 100%;
+  
 }
 
 .poster {
+  display:block;
   background-color: #e8cd99;
   color:#4c4944;
-  height:20%;
+  height:40px;
   font-size: 2em;
-  text-align: center;
-  vertical-align: center;
+  text-align: right;
 }
 
 .post-content{
-  height:80%;
+  height:160px;
+  width: 100%;
 }
 
 .recipe-photo {
-  height:100%;  
-  float:left;
+    display: inline;
+    height: 100%;
+    width: 15%;
+    min-width: 200px;
+    max-width: 200px;
+    float: left;
+
+}
+
+.recipe-title {
+    display:block;
+    background-color: #132644;
+    color:#dee2e8;
+    font-size: 1em;
+    text-align: center;
 }
 
 .recipe-photo img {
   height: 100%;
+  width: 100%;
 
 }
 
 .recipe-details {
   background-color: #dedfe0;  
   height:100%;
-  width: 88%;
-  float:right;
+  width: 100%;
