@@ -108,6 +108,7 @@ body {
 .post {
   height: 200px;
   width: 100%;
+
   
 }
 
@@ -173,8 +174,18 @@ body {
   width: 25%;
   height: 120px;
   margin-left:1%;
-  text-align: center;
+  margin-top: 10px;
   font-weight: bold;
+}
+
+.user-rating h3{
+  line-height: 0;  
+  text-align: center;
+}
+
+.user-rating h4{
+  line-height: 0;  
+  margin: 28px 0px 28px 10px;
 }
 
 .community-rating{
@@ -182,16 +193,27 @@ body {
   display: inline-block; 
   width: 25%;
   height: 120px;
-  text-align: center;
+  margin-top: 10px;
   font-weight: bold;
+}
+
+.community-rating h3 {
+  line-height: 0;  
+  text-align: center;
+}
+
+.community-rating h4 {
+  line-height: 0;  
+  margin: 28px 0px 28px 10px;
 }
 
 .view-recipe-button{
   background-color: #189e16;
   display: inline-block;
-  width: 12%;
   position: relative;
-  top: 45px;
+  bottom: 45px;
+  /* left: 5px; */
+  width: 12%;
   height: 50px;
   border-radius: 10px;
   text-align: center;
