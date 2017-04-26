@@ -153,3 +153,52 @@ body {
   background-color: #dedfe0;  
   height:100%;
   width: 100%;
+}
+
+.user-comment{
+  background-color: #b2ccf4;
+  color: black;
+  display: inline;
+  float: left;
+  height: 140px;
+  width: 20%;
+  text-align: center; 
+  font-size: 2em;
+  font-style: italic;
+} 
+
+.user-rating {
+  background-color: #b2c491;
+  display: inline-block;
+  width: 25%;
+  height: 120px;
+  margin-left:1%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.community-rating{
+  background-color: #92a7a8;
+  display: inline-block; 
+  width: 25%;
+  height: 120px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.view-recipe-button{
+  background-color: #189e16;
+  display: inline-block;
+  width: 12%;
+  position: relative;
+  top: 45px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.view-recipe-button:hover {
+    background-color: #1dce1a;       
+}
