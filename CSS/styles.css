@@ -1,7 +1,7 @@
 body {  
   font-family: Verdana, sans-serif;
   background-color: whitesmoke;
-  min-width: 1200px;
+  min-width: 1650px;
   max-width: 2000px;
   margin: 0;
 }
@@ -11,9 +11,9 @@ body {
     height: 100%;
     float: right;
     position: fixed;
-    right:0;
+    left:1275px;
     width: 14.5%;
-    min-width: 225px;
+    min-width: 240px;
     max-width:300px;
     
 }
@@ -25,7 +25,7 @@ body {
     position: relative;
     top: 50px;
     height: 180px;
-    width: 220px;
+    width: 200px;
     margin: 0 auto;
 }
 
@@ -39,36 +39,24 @@ body {
   display: inline-block;
   z-index: 1;
   position: fixed;
-  background-image: url('http://www.gsneo.org/content/dam/girlscouts-gsusa/images/Cookies/cookie-recipes/4.1.4-Cookie-Recipes.jpg');
-  background-size: cover;  
+  background-color: #373c44;
   height: 100px; 
-  width: 85%;
+  width: 1275px;
+  max-width: 1700px;  
   text-align: center;
-  color: #4286f4;
+  color: #6b6eb2;
   font-size: 4em;
   font-weight: bold;
-  text-shadow: 0 1px 0 #bbb,
-0 2px 0 #bbb,
-0 3px 0 #aaa,
-0 4px 0 #aaa,
-0 5px 0 #999,
-0 6px 1px #000,
-0 0px 3px #000,
-0 1px 3px #000,
-0 3px 5px #000,
-0 5px 10px #000,
-0 5px 20px #000;
-}
-  
+}  
 
 /* Add a black background color to the top navigation */
 .topnav {
     position: fixed;
     top: 100px;
     height: 40px;
-    background-color: #333;
+    background-color: #6b6eb2;
     overflow: hidden;
-    width: 85%;
+    width: 1275px;    
     margin-right: 10px;
     z-index: 1;
 }
@@ -102,7 +90,7 @@ body {
   display: inline-block;
   top: 135px;
   height: 1000px;
-  width: 85%;
+  width: 1275px;
 }
 
 .post {
@@ -114,11 +102,12 @@ body {
 
 .poster {
   display:block;
-  background-color: #e8cd99;
-  color:#4c4944;
+  background-color: #b9b9ce;
+  color:#101011;
   height:40px;
   font-size: 2em;
-  text-align: right;
+  text-align: left;
+  padding-left: 13%;
 }
 
 .post-content{
@@ -138,7 +127,7 @@ body {
 
 .recipe-title {
     display:block;
-    background-color: #132644;
+    background-color: #373c44;
     color:#dee2e8;
     font-size: 1em;
     text-align: center;
@@ -183,16 +172,43 @@ body {
   text-align: center;
 }
 
-.user-rating h4{
-  line-height: 0;  
-  margin: 28px 0px 28px 10px;
+.category-titles{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  display: inline;
+  width: 20%;
+  height: 80px;
+  padding-top: 0px;
+}
+
+.rating-criterion {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.rating-criterion h4{
+  font-size: 14px;
+  display: inline;
+  line-height: 26px;
+
+}
+
+.rating-criterion img{
+  position: relative;
+  top: 3px;
+  height: 20px;
+  width: 20px;
 }
 
 .community-rating{
   background-color: #92a7a8;
-  display: inline-block; 
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
   width: 25%;
   height: 120px;
+  margin-left: 1%;
   margin-top: 10px;
   font-weight: bold;
 }
@@ -207,18 +223,27 @@ body {
   margin: 28px 0px 28px 10px;
 }
 
+
+
 .view-recipe-button{
   background-color: #189e16;
-  display: inline-block;
+  display: inline-flex;
   position: relative;
   bottom: 45px;
-  /* left: 5px; */
-  width: 12%;
+  left:2%;
+  width: 128px;
   height: 50px;
   border-radius: 10px;
   text-align: center;
   font-weight: bold;
   line-height: 50px;
+}
+
+.view-recipe-button h3{
+  line-height: 12px;
+  padding-left: 15px;
+  font-size: 14px;
+  padding-top: 5px;
 }
 
 .view-recipe-button:hover {
